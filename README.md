@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏠 House Price Prediction using XGBoost
 
 This project builds a robust regression pipeline using XGBoost to predict house sale prices based on 80+ features such as neighborhood, quality, area, and more. It includes detailed EDA, feature engineering, hyperparameter tuning, and model evaluation.
@@ -119,3 +120,7 @@ Full documentation and metrics
 💡 Achieved high model accuracy with insights from key features like OverallQual, GrLivArea, and GarageCars
 🧠 Model generalizes well and is ready for use in pricing strategies, real estate analytics, and investment tools
 📂 Deliverables include: Clean code, trained model, predictions file, and summary report
+=======
+# house-price-xgboost
+🏡 Advanced regression pipeline using XGBoost for accurate house price prediction. Includes EDA, feature engineering, model tuning, and interpretation. Ideal for real estate analytics and pricing models.
+>>>>>>> cbe21581d82b1461bb16d1b52626d6274fd4a670
