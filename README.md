@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🏠 House Price Prediction using XGBoost
 
 This project builds a robust regression pipeline using XGBoost to predict house sale prices based on 80+ features such as neighborhood, quality, area, and more. It includes detailed EDA, feature engineering, hyperparameter tuning, and model evaluation.
@@ -6,33 +5,16 @@ This project builds a robust regression pipeline using XGBoost to predict house 
 ---
 
 ## 📁 Project Structure
+
 house-price-xgboost/
 ├── notebooks/
-│ ├── 01_eda_and_visualization-checkpoint.ipynb
-│ ├── 02_data_cleaning-checkpoint.ipynb
-│ ├── 03_baseline_model-checkpoint.ipynb
-│ ├── 04_model_training-checkpoint.ipynb
-│ ├── 05_evaluation_and_tuning-checkpoint.ipynb
-│ └── 06_visualization_and_submission-checkpoint.ipynb
 ├── gallery/
-│ ├── houseprice.png
-│ ├── featureImportance.png
-│ ├── histogram.png
-│ ├── missingvalueBarplot.png
-│ ├── missingvalueCmap.png
-│ ├── featureDecisionTable.png
-│ ├── salepricebyOverquality.png
-│ ├── correlatedfeaturesSaleprice.png
-│ └── scatterPlot.png
 ├── model/
-│ └── xgb_model.pkl
 ├── submission/
-│ └── final_submission.csv
+│ └── blended_submission.csv
 ├── report/
-│ └── House_Price_Project_Summary.pdf
 ├── requirements.txt
-├── .gitignore
-└── README.md
+├── README.md
 
 yaml
 Copy
@@ -68,17 +50,11 @@ Edit
 
 ## 📈 Gallery Highlights (Visuals)
 
-Here are some visualizations and insights included in the `gallery/` folder:
-
-- 📊 `houseprice.png` — Distribution of target variable
-- 📉 `featureImportance.png` — Top features from XGBoost
-- 📊 `histogram.png` — Overall numeric feature distributions
-- 🔍 `missingvalueBarplot.png` — Missing value bar overview
-- 🧊 `missingvalueCmap.png` — Heatmap of missing features
-- 📋 `featureDecisionTable.png` — Feature selection summary
-- 💡 `salepricebyOverquality.png` — SalePrice vs. OverallQual
-- 🔗 `correlatedfeaturesSaleprice.png` — Correlation heatmap
-- 📌 `scatterPlot.png` — Area vs. Price relationship
+- `houseprice.png` — Target variable distribution  
+- `featureImportance.png` — Top features via XGBoost  
+- `histogram.png`, `missingvalueBarplot.png`, `missingvalueCmap.png`  
+- `featureDecisionTable.png` — Feature selection logic  
+- `salepricebyOverquality.png`, `correlatedfeaturesSaleprice.png`, `scatterPlot.png`
 
 ---
 
@@ -87,7 +63,7 @@ Here are some visualizations and insights included in the `gallery/` folder:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/house-price-xgboost.git
+git clone https://github.com/niherhalder/house-price-xgboost.git
 cd house-price-xgboost
 2. Install Dependencies
 bash
@@ -95,32 +71,29 @@ Copy
 Edit
 pip install -r requirements.txt
 3. Run Jupyter Notebooks
-Navigate to the notebooks/ folder and open notebooks in order (01 → 06):
-
 bash
 Copy
 Edit
 jupyter notebook
+Open and execute notebooks in order (01 to 06)
+
 📂 Deliverables
 Clean 6-part notebook pipeline
 
 Gallery of 9 key visualizations
 
-Trained XGBoost model (.pkl)
+Trained XGBoost model (xgb_model.pkl)
 
-Submission file (.csv)
+Correct Submission: blended_submission.csv
 
-PDF summary report
+PDF report summary
 
-Full documentation and metrics
+Full documentation
 
 ✅ Conclusion
-✅ Successfully built a regression pipeline to predict house prices using XGBoost
-📊 Leveraged data preprocessing, EDA, and model tuning for performance
-💡 Achieved high model accuracy with insights from key features like OverallQual, GrLivArea, and GarageCars
-🧠 Model generalizes well and is ready for use in pricing strategies, real estate analytics, and investment tools
-📂 Deliverables include: Clean code, trained model, predictions file, and summary report
-=======
-# house-price-xgboost
-🏡 Advanced regression pipeline using XGBoost for accurate house price prediction. Includes EDA, feature engineering, model tuning, and interpretation. Ideal for real estate analytics and pricing models.
->>>>>>> cbe21581d82b1461bb16d1b52626d6274fd4a670
+✅ Built a complete regression pipeline to predict house prices
+📊 Leveraged EDA, feature engineering, and XGBoost tuning
+💡 Identified key features like OverallQual, GrLivArea, and GarageCars
+🧠 Generalizes well for pricing, analytics, and investment insights
+📂 Deliverables include notebook pipeline, predictions, visuals, and results
+
